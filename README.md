@@ -3,7 +3,7 @@ GitHub Wiki Search Functionality for Chrome
 
 This workaround is based on the awesome extension, [github-wiki-search](https://github.com/linyows/github-wiki-search) which can be downloaded as a [Google Chrome extension](https://chrome.google.com/webstore/detail/github-wiki-search/gdifdhnjmjaidbajhapmbcbnoocoeooc).
 
-The only downfail of the original extension itself is the lack of GitHub Enterprise support. This is mostly due to security features of Chrome extensions. This workaround will enable search functionality on any GitHub Enterprise site through the use of a javascript injection extension called [Custom Javascript or CJS](https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfciodnhlhhgnaaelnpjljija?hl=en) and a slightly modified version of the original Wiki-Search script.
+The only downfall of the original extension itself is the lack of GitHub Enterprise support. This workaround will enable search functionality on any GitHub Enterprise site of your choice through the use of a javascript injection extension called [Custom Javascript or CJS](https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfciodnhlhhgnaaelnpjljija?hl=en) and a slightly modified version of the original Wiki-Search script.
 
 Procedure
 ----------
