@@ -296,7 +296,7 @@
   };
 
   function allowedLocation(callback) {
-    if (/^https?:\/\/github\.com\/.*?\/.*?\/wiki/.test(location.href)) {
+    if (/^https?:\/\/github\..*?\/.*?\/.*?\/wiki/.test(location.href) && !(/^https?:\/\/github\..*?\/.*?\/.*?\/wiki\/_new/.test(location.href))) {
       callback();
     }
   }
@@ -312,6 +312,6 @@
   });
   observer.observe(document.body, { childList: true , subtree: true});
 
-  //allowedLocation(githubWikiSearch);
-  githubWikiSearch();
+  allowedLocation(githubWikiSearch);
+  //githubWikiSearch();
 }());
